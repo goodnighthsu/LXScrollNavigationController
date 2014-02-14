@@ -28,10 +28,6 @@
     if (self) {
         // Custom initialization
         
-        //固定值
-        self.statusBarHeight =  20;
-        self.navigationBarHeight = 44;
-        
     }
     return self;
 }
@@ -39,7 +35,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    //固定值
+    self.statusBarHeight =  20;
+    self.navigationBarHeight = 44;
 }
 
 
