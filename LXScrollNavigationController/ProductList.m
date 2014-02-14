@@ -7,7 +7,7 @@
 //
 
 #import "ProductList.h"
-#import "LXNavigationController.h"
+#import "LXScrollNavigationController.h"
 
 @interface ProductList ()
 
@@ -26,7 +26,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    LXNavigationController *nav =  (LXNavigationController *)self.navigationController;
+    LXScrollNavigationController *nav =  (LXScrollNavigationController *)self.navigationController;
     nav.scrollableView = self.tableView;
 }
 

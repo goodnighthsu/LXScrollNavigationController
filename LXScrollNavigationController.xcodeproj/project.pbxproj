@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		354AD1A218AE1046001BB9AB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 354AD1A118AE1046001BB9AB /* README.md */; };
 		35C1F6F118AE0B31005CC16C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C1F6F018AE0B31005CC16C /* Foundation.framework */; };
 		35C1F6F318AE0B31005CC16C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C1F6F218AE0B31005CC16C /* CoreGraphics.framework */; };
 		35C1F6F518AE0B31005CC16C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C1F6F418AE0B31005CC16C /* UIKit.framework */; };
@@ -21,7 +22,7 @@
 		35C1F71618AE0B31005CC16C /* LXScrollNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C1F71518AE0B31005CC16C /* LXScrollNavigationControllerTests.m */; };
 		35C1F72318AE0B87005CC16C /* ProductList.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C1F72218AE0B87005CC16C /* ProductList.m */; };
 		35C1F72618AE0BA3005CC16C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C1F72518AE0BA3005CC16C /* MainViewController.m */; };
-		35C1F72A18AE0BC9005CC16C /* LXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C1F72918AE0BC9005CC16C /* LXNavigationController.m */; };
+		35C1F72A18AE0BC9005CC16C /* LXScrollNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C1F72918AE0BC9005CC16C /* LXScrollNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		354AD1A118AE1046001BB9AB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		35C1F6ED18AE0B31005CC16C /* LXScrollNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXScrollNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C1F6F018AE0B31005CC16C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		35C1F6F218AE0B31005CC16C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,8 +57,8 @@
 		35C1F72218AE0B87005CC16C /* ProductList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductList.m; sourceTree = "<group>"; };
 		35C1F72418AE0BA3005CC16C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		35C1F72518AE0BA3005CC16C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		35C1F72818AE0BC9005CC16C /* LXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXNavigationController.h; sourceTree = "<group>"; };
-		35C1F72918AE0BC9005CC16C /* LXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXNavigationController.m; sourceTree = "<group>"; };
+		35C1F72818AE0BC9005CC16C /* LXScrollNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXScrollNavigationController.h; sourceTree = "<group>"; };
+		35C1F72918AE0BC9005CC16C /* LXScrollNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXScrollNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		35C1F6E418AE0B31005CC16C = {
 			isa = PBXGroup;
 			children = (
+				354AD1A118AE1046001BB9AB /* README.md */,
 				35C1F6F618AE0B31005CC16C /* LXScrollNavigationController */,
 				35C1F70F18AE0B31005CC16C /* LXScrollNavigationControllerTests */,
 				35C1F6EF18AE0B31005CC16C /* Frameworks */,
@@ -177,8 +180,8 @@
 		35C1F72718AE0BC9005CC16C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				35C1F72818AE0BC9005CC16C /* LXNavigationController.h */,
-				35C1F72918AE0BC9005CC16C /* LXNavigationController.m */,
+				35C1F72818AE0BC9005CC16C /* LXScrollNavigationController.h */,
+				35C1F72918AE0BC9005CC16C /* LXScrollNavigationController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354AD1A218AE1046001BB9AB /* README.md in Resources */,
 				35C1F6FB18AE0B31005CC16C /* InfoPlist.strings in Resources */,
 				35C1F70318AE0B31005CC16C /* Images.xcassets in Resources */,
 			);
@@ -279,7 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35C1F70118AE0B31005CC16C /* AppDelegate.m in Sources */,
-				35C1F72A18AE0BC9005CC16C /* LXNavigationController.m in Sources */,
+				35C1F72A18AE0BC9005CC16C /* LXScrollNavigationController.m in Sources */,
 				35C1F6FD18AE0B31005CC16C /* main.m in Sources */,
 				35C1F72318AE0B87005CC16C /* ProductList.m in Sources */,
 				35C1F72618AE0BA3005CC16C /* MainViewController.m in Sources */,
@@ -485,6 +489,7 @@
 				35C1F71B18AE0B31005CC16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35C1F71C18AE0B31005CC16C /* Build configuration list for PBXNativeTarget "LXScrollNavigationControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				35C1F71E18AE0B31005CC16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

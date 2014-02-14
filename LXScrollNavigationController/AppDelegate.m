@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "LXNavigationController.h"
+#import "LXScrollNavigationController.h"
 #import "MainViewController.h"
 
 
@@ -18,7 +18,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     MainViewController *mainVC = [[MainViewController alloc] init];
-    LXNavigationController *nav = [[LXNavigationController alloc] initWithRootViewController:mainVC];
+    LXScrollNavigationController *nav = [[LXScrollNavigationController alloc] initWithRootViewController:mainVC];
     self.window.rootViewController = nav;
     //
     self.window.backgroundColor = [UIColor whiteColor];

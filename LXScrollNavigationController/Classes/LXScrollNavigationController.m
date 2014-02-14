@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 Leon. All rights reserved.
 //
 
-#import "LXNavigationController.h"
+#import "LXScrollNavigationController.h"
 
-@interface LXNavigationController ()
+@interface LXScrollNavigationController ()
 
 @property (strong, nonatomic) UIPanGestureRecognizer *gr;
 @property (assign, nonatomic) BOOL up;
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation LXNavigationController
+@implementation LXScrollNavigationController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

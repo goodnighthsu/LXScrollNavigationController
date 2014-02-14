@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LXNavigationController : UINavigationController <UIGestureRecognizerDelegate>
+@interface LXScrollNavigationController : UINavigationController <UIGestureRecognizerDelegate>
 
 @property (assign, nonatomic) UIView *scrollableView;
 

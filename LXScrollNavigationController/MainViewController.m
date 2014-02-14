@@ -7,7 +7,7 @@
 //
 
 #import "MainViewController.h"
-#import "LXNavigationController.h"
+#import "LXScrollNavigationController.h"
 #import "ProductList.h"
 
 @interface MainViewController ()
@@ -28,7 +28,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     //self.navigationController.navigationBarHidden = YES;
-    LXNavigationController *nav =  (LXNavigationController *)self.navigationController;
+    LXScrollNavigationController *nav =  (LXScrollNavigationController *)self.navigationController;
     nav.scrollableView = self.sv;
 }
 
